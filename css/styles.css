@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("C:/wamp/www/New folder/Html project/Images/Hospital image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+}
+
+header {
+    background-color: rgba(0, 64, 128, 0.8);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative; /* Important to ensure absolute positioning works */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 51, 102, 0.8);
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+section h2, section h3 , section h4 {
+    color: #004080;
+}
+
+footer {
+    background-color: rgba(0, 51, 102, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Auth Links in the top-right corner */
+.auth-links {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.auth-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.auth-links a:hover {
+    text-decoration: underline;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 60px; /* Adjust the size of the logo as needed */
+    height: auto;
+    margin-right: 15px;
+}
+
+h1 {
+    margin: 0;
+}
+.image-map-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.image-map-container img {
+    width: 30%;
+}
+.image-map-container img {
+    display: block;
+    margin: 0 auto;
+}
+
+.image-map-container p {
+    text-align: center;
+    margin-top: 5px;
+}
+/* Intro Section */
+#intro {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f0f0f5;
+    color: #333;
+}
+#intro p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}

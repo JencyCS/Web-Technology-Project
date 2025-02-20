@@ -1,0 +1,174 @@
+body {
+    background-color: #cce0f5;
+    font-family: Arial, sans-serif;
+    background: url('C:/Users/Rajan/Desktop/SYCS/Web tec/Html project/Images/Hospital image.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.department {
+    background-color: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+.department img {
+    width: 30px;
+    margin-right: 15px;
+}
+
+.department:hover {
+    border-color: #1c88d6;
+    transition: 0.3s;
+}
+
+.header {
+    grid-column: span 3;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgba(0, 64, 128, 0.8);
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Additional CSS */
+.department {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0b5394;
+    border: 2px solid #dfdfdf;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.department:hover {
+    background-color: #f1f5fd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.department img {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.active-department {
+    background-color: #dae8fc;
+    border-color: #1c88d6;
+    font-weight: 700;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.icon-container img {
+    width: 35px;
+    height: 35px;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Header */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #00457C;
+    color: white;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 60px; /* Adjust the size of the logo as needed */
+    height: auto;
+    margin-right: 15px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 51, 102, 0.8);
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.auth-links {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.auth-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.auth-links a:hover {
+    text-decoration: underline;
+}

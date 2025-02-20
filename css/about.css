@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('C:/Users/Rajan/Desktop/SYCS/Web tec/Html project/Images/Hospital image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+}
+
+header {
+    background-color: rgba(0, 64, 128, 0.8);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 51, 102, 0.8);
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+section h2, section h3 {
+    color: #004080;
+}
+
+footer {
+    background-color: rgba(0, 51, 102, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.auth-links {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.auth-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.auth-links a:hover {
+    text-decoration: underline;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 60px; /* Adjust the size of the logo as needed */
+    height: auto;
+    margin-right: 15px;
+}
+
+h1 {
+    margin: 0;
+}
+/* Image Styling */
+.story-image, .team-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section Layout */
+.content-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.story-section img,
+.team-section img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.story-section p,
+.team-section p {
+    flex: 1;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Additional Styling for Sections */
+.story-section, .team-section, .mission-section {
+    padding: 40px 20px;
+}
+
+.story-section h2, .team-section h3, .mission-section h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
